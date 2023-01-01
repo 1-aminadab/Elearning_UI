@@ -1,0 +1,13 @@
+.signup-promo .login-promo{
+    width: 40%;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/2237798/pexels-photo-2237798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    /* background:linear-gradient(135deg, var(--primary-color),  rgb(235, 235, 235)); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    
+}
