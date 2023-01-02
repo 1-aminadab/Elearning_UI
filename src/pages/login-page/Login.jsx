@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Login.css"
-import { Navigate, useNavigate } from 'react-router-dom'
+import { Navigate, useNavigate , Link} from 'react-router-dom'
 import SingUpImage from "../../assets/signup-image.jpg"
 function Login() {
     const navigate = useNavigate()
@@ -25,7 +25,9 @@ function Login() {
            
             <span style={{marginTop:"30px",marginBottom:"20px"}} className="other-options">
                 
-                <h3>Create account <span> <a onClick={()=>{navigate("signup")}}>Sign Up</a> </span></h3>
+                <h3>Create account <span>
+                  <Link to="/signup"> <a>Sign Up</a></Link>
+                   </span></h3>
             </span>
             <button type="submit">Login</button>
         </form>

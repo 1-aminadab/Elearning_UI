@@ -4,9 +4,9 @@ export const data = [
     id: 1,
     image:image,
     name:"course name",
-    description:"this is the last stand and there is no stop",
+    description:"This is the last stand and there is no stop",
     footer:"100% free",
-    price:"$100"
+    price:"$150"
 },
 {
     id: 2,

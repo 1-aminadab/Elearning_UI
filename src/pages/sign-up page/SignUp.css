@@ -30,6 +30,7 @@
     border-bottom: 2px solid var(--primary-color);
     width: 70%;
     padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.048);
     
 }
 .sinup-form #form div p{

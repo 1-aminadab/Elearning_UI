@@ -2,7 +2,7 @@ import React from 'react'
 import "./SignUp.css"
 import SingUpImage from "../../assets/signup-image.jpg"
 import NavBar from '../main-page/nav-bar/NavBar'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 function SignUp() {
     const navigate = useNavigate()
   return (
@@ -10,7 +10,7 @@ function SignUp() {
       <div className="sinup-form">
         <div className="header">
             <h1>Hey, hello <span> 👋🏻 </span> </h1>
-            <span>enter the information , you enter while you resister</span>
+            <span>enter the information , you'll enter while you resister</span>
         </div>
         <form id='form' action="" method="post">
             <div>
