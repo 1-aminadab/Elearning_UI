@@ -1,0 +1,124 @@
+.shopping_cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    position: relative;
+}
+.shopping_cart .cart_header h1{
+    background:linear-gradient(135deg, var(--primary-color), rgb(194, 191, 191));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+} 
+.added_and_total{
+    margin: 30px 10px ;
+    display: flex;
+    width: 100vw;
+}
+.added{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh;
+    gap: 10px;
+    overflow-y: scroll;
+}
+.added_cart .image img{
+    height: 80px;
+}
+.added_cart{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    color: gray;
+    box-shadow: 0 0 10px rgba(4, 122, 143, 0.384);
+}
+.added_cart h1{
+    color:var(--primary-color)
+}
+.added_cart .price-rate{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.added_cart .price-rate h4{
+    font-size: 22px;
+    color: rgb(255, 153, 0);
+}
+.added_cart .price-rate p{
+    font-size: 18px;
+    color: gray;
+}
+.added_cart .price-rate button,
+.total_checkout button
+{
+    height: 40px;
+    width: 100px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: 500ms;
+
+}
+.added_cart .price-rate button:hover,
+.total_checkout button:hover{
+    color: var(--primary-color);
+    background-color: white;
+    border:1px solid var(--primary-color);
+    cursor: pointer;
+}
+.total_checkout{
+  
+    width: 50%;
+    padding:0 50px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.total_checkout .total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.total_checkout .total h1{
+    font-size: 37px;
+    background:linear-gradient(135deg, var(--primary-color), rgb(194, 191, 191));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.total_checkout .total  h2{
+    font-size: 40px;
+    color: rgb(255, 196, 0);
+}
+.total_checkout button{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.back{
+    position: absolute;
+    cursor: pointer;
+    left: 90%;
+    top: 2%;
+    height: 40px;
+    width: 70px;
+    border: none;
+    background-color: rgb(255, 0, 55);
+    color: white;
+    font-size: 16px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}

@@ -1,0 +1,60 @@
+.intro{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background:linear-gradient(135deg,rgb(191, 253, 255),#daf8ff);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .intro div {
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 0;
+    background:linear-gradient(135deg, var(--primary-color),rgb(168, 168, 168));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  .intro div:nth-child(1){
+    animation: disapear 3.5s forwards;
+  
+    animation-delay: 0ms;
+  }
+  .intro div:nth-child(2){
+    animation: disapear 3.5s forwards;
+    animation-delay: 100ms;
+  }
+  .intro div:nth-child(3){
+    animation: disapear 3.5s forwards;
+    animation-delay: 200ms;
+  }
+  .intro div:nth-child(4){
+    animation: disapear 3.5s forwards;
+    animation-delay: 300ms;
+  }
+  .intro div:nth-child(5){
+    animation: disapear 3.5s forwards;
+    animation-delay: 400ms;
+  }
+  .intro div:nth-child(6){
+    animation: disapear 3.5s forwards;
+    animation-delay:500ms;
+  }
+  .intro div:nth-child(7){
+    animation: disapear 3.5s forwards;
+    animation-delay: 600ms;
+  }
+  .intro div:nth-child(8){
+    animation: disapear 3.5s forwards;
+    animation-delay: 700ms;
+  }
+  .intro div:nth-child(9){
+    animation: disapear 3.5s forwards;
+    animation-delay: 800ms;
+  }

@@ -1,6 +1,6 @@
 .mainPage{   
     width: 100vw;
-    box-shadow: 0 0 10px 5px rgba(124, 124, 124, 0.082);
+   
 }
 .nav{
     background-color: white;
@@ -12,7 +12,7 @@
     width: 100vw;
     transition: height 1s;
     z-index: 3;
-    
+     box-shadow: 0 0 10px 5px rgba(124, 124, 124, 0.082);
 }
 @keyframes anime {
   0%{
@@ -69,18 +69,17 @@ height: 0;
     font-weight: 400;
     height: 80px;
     align-items: center;
-    
-    
+   
 }
 .header_options ul Link{
-   background-color: red;
+  
    height: inherit;
 }
-.header_options ul li{
-    
+
+.header_options ul li{ 
+    color: #5C705F;
     margin-left: 10px;
     padding: 2px;
-    color: #5C705F;
     font-weight: 500;
     font-size: 16px;
     height: 80px;
@@ -141,6 +140,37 @@ height: 0;
 }
 .menu-icon{
     font-size:30px;
+    
+}
+.cart{
+    background-color: rgb(255, 255, 255);
+    position: relative; 
+    height: fit-content;
+}
+.cart span{
+    position: absolute;
+    top:5%;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 12px;
+    height: 80%;
+    width: fit-content;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px ;
+    transition: 500ms;
+    z-index: -1;
+    
+
+}
+
+.active{
+    color: var(--primary-color);
+    background:rgba(1, 150, 137, 0.322)
+    
     
 }
 

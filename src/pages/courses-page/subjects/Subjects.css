@@ -1,0 +1,116 @@
+.subjects{
+    margin-top: 30px;
+    display: flex;
+    gap: 5px;
+    
+}
+
+.select-subject{
+   width: 300px;
+   height: 82vh;
+   background-color: #18a1c3b7; 
+   backdrop-filter: blur(15px);
+   -webkit-backdrop-filter:blur(15px);
+   overflow-y:scroll;
+}
+.subjects ul{ 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.subjects ul li{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 0;
+    background-color: rgba(255, 255, 255, 0.123);
+}
+.subjects ul li:hover{
+    background-color: rgba(216, 250, 255, 0.623);
+    color: var(--white);
+}
+
+/* all courses */
+.all-chapters{  
+    width: 77%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    height: 81vh;
+    overflow-y: scroll;
+    
+}
+.selected-courses{
+    margin-top: 10px;
+    cursor: pointer;
+    width: 230px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 5px;
+  
+    background-color:#fafafa31;
+    box-shadow: 0 0  8px 0px rgb(192, 192, 192) ;
+}
+.selected-courses:hover{
+    background-color: rgba(0, 255, 255, 0.151);
+    box-shadow: 0 0  8px 0px rgb(156, 156, 156) ;
+}
+.selected-courses .image{
+height: 30%;
+display: flex;
+justify-content: flex-end;
+
+}
+.selected-courses img{
+    height: 100px;
+    object-fit: fill;
+}
+.selected-courses .chapter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.selected-courses h1{
+    color: var(--primary-color);
+}
+.selected-courses h3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(160, 187, 5);
+
+}
+.selected-courses h3 span{
+    text-decoration:line-through;
+    color: rgb(255, 0, 34);
+}
+
+.selected-courses button{
+    height: 35px ;
+    width: 80px;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 14px;
+    transition: 500ms;
+    cursor: pointer;
+}
+.selected-courses button:hover{
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+    
+}

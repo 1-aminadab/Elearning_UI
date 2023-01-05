@@ -1,4 +1,6 @@
-
+.mainPage{
+  position: relative;
+}
 .promotion {
     display: flex;
     align-items: center;
@@ -44,12 +46,57 @@
     color: gray;
 }
 
-/* BODY */
-
-  /* FOOTER */
+/* INTRO */
 
 
-  @media only screen and (max-width: 950px){
+@keyframes disapear {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+.intro .image img{ 
+  opacity: 0.7;
+  height: 150px;
+  animation: intro 10s linear forwards;
+}
+@keyframes intro {
+ 0%{
+  rotate: 0deg;
+  transform:perspective(700px) translateZ(0px);
+ }
+50%{
+  
+}
+  100%{
+    rotate: 360deg;
+    transform:perspective(0px) translateZ(10px);
+   
+  }
+}
+.intro{
+  
+  animation: remove 5s forwards;
+}
+@keyframes remove {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    
+  }
+}
+
+
+
+
+@media only screen and (max-width: 950px){
     .popular_disc .courses{
       width: 300px;
       margin-right: 10px;

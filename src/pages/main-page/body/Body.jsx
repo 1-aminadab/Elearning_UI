@@ -3,14 +3,14 @@ import "./Body.css"
 
 import {data} from '../courses'
 import { answers } from './answer';
-
+import { useNavigate } from 'react-router-dom';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 
 function Body() {
     const [answer, setAnswer] = useState(0)
-    
+    const navigate = useNavigate()
     
     const  newData =  data.filter((datas)=>{
       return datas.id < 4
@@ -33,7 +33,7 @@ function Body() {
       {
         data.map((datas)=>{
           return(
-            <div className="courses">
+            <div onClick={()=>{navigate(datas.link)}} className="courses">
               <img  src={datas.image} alt="" />
               <h3>{datas.name}</h3>
               <p>{datas.description}</p>

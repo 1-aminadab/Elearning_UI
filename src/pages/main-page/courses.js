@@ -6,7 +6,9 @@ export const data = [
     name:"course name",
     description:"This is the last stand and there is no stop",
     footer:"100% free",
+    link:'/courses',
     price:"$150"
+
 },
 {
     id: 2,
@@ -14,6 +16,7 @@ export const data = [
     name:"course name",
     description:"this is the last stand and there is no stop",
     footer:"100% free",
+    link:'/courses',
     price:"$100"
 },
 {
@@ -22,6 +25,7 @@ export const data = [
     name:"course name",
     description:"this is the last stand and there is no stop",
     footer:"100% free",
+    link:'/courses',
     price:"$100"
 },
 {
@@ -30,6 +34,7 @@ export const data = [
     name:"course name",
     description:"this is the last stand and there is no stop",
     footer:"100% free",
+    link:'/courses',
     price:"$100"
 },
 {
@@ -38,6 +43,7 @@ export const data = [
     name:"course name",
     description:"this is the last stand and there is no stop",
     footer:"100% free",
+    link:'/courses',
     price:"$100"
 },
 {
@@ -46,6 +52,7 @@ export const data = [
     name:"course name",
     description:"this is the last stand and there is no stop",
     footer:"100% free",
+    link:'/courses',
     price:"$100"
 },
 

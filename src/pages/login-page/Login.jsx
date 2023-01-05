@@ -5,7 +5,7 @@ import SingUpImage from "../../assets/signup-image.jpg"
 function Login() {
     const navigate = useNavigate()
   return (
-    <div className='signup'>
+    <div className='signup' id='#signup'>
       <div className="sinup-form">
         <div className="header">
             <h1>Wellcome Again <span> 👋🏻 </span> </h1>

@@ -13,6 +13,7 @@ import NavBar from './nav-bar/NavBar';
 import Promotion from './promotion/Promotion';
 import Body from './body/Body';
 import Footer from './footer/Footer';
+import { useEffect } from 'react';
 function Mainpage() {
   const [answer, setAnswer] = useState(false)
   const  newData =  data.filter((datas)=>{
@@ -21,10 +22,11 @@ function Mainpage() {
   const getAnswer = (id)=>{
     return id
   }   
-
+ 
  
   return (
     <div className='mainPage'>
+      
       <NavBar options = {options} />
       <Promotion />
       <Body />
